@@ -17,5 +17,9 @@ namespace ConsolationPrize
         /// The date the student was born; Time is ignored
         /// </summary>
         public DateTime? DateOfBirth { get; set; }
+        /// <summary>
+        /// The Courses the student is enrolled in
+        /// </summary>
+        public List<Course> Courses { get; set; }
     }
 }
